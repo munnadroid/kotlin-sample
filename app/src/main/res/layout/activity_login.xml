@@ -9,16 +9,17 @@
 
     <!--username, type email-->
     <EditText
-        android:id="@+id/emailEditText"
+        android:id="@+id/usernameEditText"
         style="@style/LoginEditTextStyle"
-        android:hint="@string/email"
-        android:inputType="textEmailAddress" />
+        android:hint="@string/username"
+        android:inputType="text" />
 
     <!--password, type password-->
     <EditText
         android:id="@+id/passwordEditText"
         style="@style/LoginEditTextStyle"
         android:hint="@string/password"
+        android:imeOptions="actionDone"
         android:inputType="textEmailAddress" />
 
     <!--submit button-->

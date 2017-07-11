@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">KotlinSample</string>
-    <string name="email">Email</string>
     <string name="password">Password</string>
+    <string name="password_not_empty">Password cannot be empty.</string>
+    <string name="username">Username</string>
+    <string name="username_not_empty">Username cannot be empty.</string>
 </resources>
