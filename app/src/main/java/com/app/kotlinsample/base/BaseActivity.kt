@@ -32,6 +32,7 @@ abstract class BaseActivity : android.support.v7.app.AppCompatActivity(), Valida
     protected fun initializeValidator() {
         if (mValidator == null) {
             mValidator = Validator(this)
+            mValidator?.validationMode = Validator.Mode.IMMEDIATE
             mValidator?.setValidationListener(this)
         }
     }
