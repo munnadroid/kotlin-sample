@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="input_field_text_size">13sp</dimen>
+    <dimen name="login_box_width">200dp</dimen>
+    <dimen name="submit_btn_margin_top">16dp</dimen>
 </resources>

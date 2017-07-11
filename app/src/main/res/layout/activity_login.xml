@@ -16,8 +16,19 @@
 
     <!--password, type password-->
     <EditText
+        android:id="@+id/passwordEditText"
         style="@style/LoginEditTextStyle"
         android:hint="@string/password"
         android:inputType="textEmailAddress" />
+
+    <!--submit button-->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="@dimen/login_box_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/submit_btn_margin_top"
+        android:background="@color/colorPrimary"
+        android:text="Submit"
+        android:textColor="@android:color/white" />
 
 </LinearLayout>
