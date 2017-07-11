@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/WidthHeightMatchParent"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context="com.app.kotlinsample.LoginActivity">
 
 
