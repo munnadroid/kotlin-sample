@@ -29,7 +29,21 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
-    implementation 'com.android.support:appcompat-v7:25.4.0'
+    implementation "com.android.support:appcompat-v7:$supportLib_version"
     testImplementation 'junit:junit:4.12'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+
+    //jetbrains
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    //anko
+    compile "org.jetbrains.anko:anko-sdk25:$anko_version"
+    compile "org.jetbrains.anko:anko-commons:$anko_version"
+
+    //butterknife
+    implementation "com.jakewharton:butterknife:$butterknife_version"
+    kapt "com.jakewharton:butterknife-compiler:$butterknife_version"
+
+    //saripar form validation
+    implementation 'com.mobsandgeeks:android-saripaar:2.0.3'
 }
