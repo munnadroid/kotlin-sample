@@ -1,12 +1,13 @@
 package com.app.kotlinsample
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.app.kotlinsample.base.BaseActivity
 
-class LoginActivity : AppCompatActivity() {
+class LoginActivity : BaseActivity() {
+
+    override val layoutId = R.layout.activity_login
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
     }
 }
